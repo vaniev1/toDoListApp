@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		2437757F29C95724006053C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437757E29C95724006053C6 /* AppDelegate.swift */; };
 		2437758129C95724006053C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437758029C95724006053C6 /* SceneDelegate.swift */; };
-		2437758329C95724006053C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437758229C95724006053C6 /* ViewController.swift */; };
 		2437758629C95724006053C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2437758429C95724006053C6 /* Main.storyboard */; };
 		2437758829C95726006053C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2437758729C95726006053C6 /* Assets.xcassets */; };
 		2437758B29C95726006053C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2437758929C95726006053C6 /* LaunchScreen.storyboard */; };
+		2437759529C958E6006053C6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437759429C958E6006053C6 /* TableViewController.swift */; };
+		2437759729C95920006053C6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437759629C95920006053C6 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2437757B29C95724006053C6 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2437757E29C95724006053C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2437758029C95724006053C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2437758229C95724006053C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2437758529C95724006053C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2437758729C95726006053C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2437758A29C95726006053C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2437758C29C95726006053C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2437759429C958E6006053C6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2437759629C95920006053C6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				2437757E29C95724006053C6 /* AppDelegate.swift */,
 				2437758029C95724006053C6 /* SceneDelegate.swift */,
-				2437758229C95724006053C6 /* ViewController.swift */,
 				2437758429C95724006053C6 /* Main.storyboard */,
+				2437759629C95920006053C6 /* Model.swift */,
+				2437759429C958E6006053C6 /* TableViewController.swift */,
 				2437758729C95726006053C6 /* Assets.xcassets */,
 				2437758929C95726006053C6 /* LaunchScreen.storyboard */,
 				2437758C29C95726006053C6 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2437758329C95724006053C6 /* ViewController.swift in Sources */,
 				2437757F29C95724006053C6 /* AppDelegate.swift in Sources */,
+				2437759529C958E6006053C6 /* TableViewController.swift in Sources */,
 				2437758129C95724006053C6 /* SceneDelegate.swift in Sources */,
+				2437759729C95920006053C6 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
